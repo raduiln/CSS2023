@@ -3,7 +3,7 @@
       height: 100px;
       overflow: hidden;
       border: 1px solid red;
-       transforation: width 3s, height 4s;
+       transition: width 3s, height 4s;
 }
 .container:hover{
 width: 100%;
