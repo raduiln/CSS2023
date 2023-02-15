@@ -1,6 +1,6 @@
-:root{
-    --mycolor: rgb(43, 255, 0)
-    --mycolor:red
+:root {
+  --mycolor: rgb(43, 255, 0);
+  --mycolor2: red;
 }
 /* body{
     --mycolor:blue;
@@ -8,6 +8,9 @@
 .block{
     --mycolor: red;
 } */
-p{
-    color: var(--mycolor)
+p {
+  color: var(--mycolor);
+}
+.block p {
+  color: var(--mycolor2);
 }
